@@ -4,10 +4,14 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.top-banner p{
+    text-align: justify;
 }
 .half-width{
     padding-left: 3%;
@@ -29,4 +33,15 @@ h1{
     background-image: linear-gradient(orange, tomato );
     font-weight: 700; 
     border-radius: 10px;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.position_for_image{
+    text-align:justify;
+    padding-right: 20px;
+
 }
